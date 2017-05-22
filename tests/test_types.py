@@ -33,7 +33,7 @@ class Test(unittest.TestCase):
         self.valid("'a ' + 'string'")
 
     def test_unicode(self):
-        ustr = u"\N{GREEK CAPITAL LETTER DELTA}"
+        ustr = "\N{GREEK CAPITAL LETTER DELTA}"
         res = self.mr.eval("'" + ustr + "'")
         self.assertEqual(ustr, res)
 

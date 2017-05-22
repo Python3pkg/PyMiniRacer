@@ -55,8 +55,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Python Mini Racer'
-copyright = u'2016, Boris FELD'
+project = 'Python Mini Racer'
+copyright = '2016, Boris FELD'
 
 # The version info for the project you're documenting, acts as replacement
 # for |version| and |release|, also used in various other places throughout
@@ -209,8 +209,8 @@ latex_elements = {
 # [howto/manual]).
 latex_documents = [
     ('index', 'py_mini_racer.tex',
-     u'Python Mini Racer Documentation',
-     u'Boris FELD', 'manual'),
+     'Python Mini Racer Documentation',
+     'Boris FELD', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at
@@ -240,8 +240,8 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     ('index', 'py_mini_racer',
-     u'Python Mini Racer Documentation',
-     [u'Boris FELD'], 1)
+     'Python Mini Racer Documentation',
+     ['Boris FELD'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -255,8 +255,8 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
     ('index', 'py_mini_racer',
-     u'Python Mini Racer Documentation',
-     u'Boris FELD',
+     'Python Mini Racer Documentation',
+     'Boris FELD',
      'py_mini_racer',
      'One line description of project.',
      'Miscellaneous'),

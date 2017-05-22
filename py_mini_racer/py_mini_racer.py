@@ -60,7 +60,7 @@ def is_unicode(value):
     python_version = sys.version_info[0]
 
     if python_version == 2:
-        return isinstance(value, unicode)
+        return isinstance(value, str)
     elif python_version == 3:
         return isinstance(value, str)
     else:
